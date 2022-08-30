@@ -1,0 +1,31 @@
+.container{
+    height: calc(100vh - 100px);
+    background-color: #222;
+    display: flex;
+}
+
+.item{
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+
+.item:last-child{
+    flex: 2;
+}
+
+.card{
+    padding: 50px;
+}
+
+.title{
+    color: goldenrod;
+}
+
+.text{
+    color: lightgray;
+}
+
+.motto{
+    color: whitesmoke;
+}
